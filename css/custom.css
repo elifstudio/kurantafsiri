@@ -41,3 +41,11 @@
 .video-prophet {
     max-width: 300px;
 }
+
+.panel-title {
+    text-align: center;
+}
+
+.panel-body span {
+    color: black;
+}
