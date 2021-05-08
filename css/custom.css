@@ -49,3 +49,13 @@
 .panel-body span {
     color: black;
 }
+
+.imageDiv {
+    height: 100%;
+    border-style: solid;
+    padding: 5px;
+    border-width: thin;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
