@@ -59,3 +59,7 @@
     border-right: none;
     border-bottom: none;
 }
+
+.page-wrap {
+    min-height: 75%;
+}
