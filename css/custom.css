@@ -75,7 +75,8 @@
     box-shadow: 2px 2px 3px #999;
     animation-name: floatBtn;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 5;
+    background-color: #22577A;
 }
 
 .floatBtn p {
