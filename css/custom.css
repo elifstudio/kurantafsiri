@@ -63,3 +63,39 @@
 .page-wrap {
     min-height: 75%;
 }
+
+.floatBtn {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 35px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    animation-name: floatBtn;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.floatBtn p {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+@keyframes floatBtn {
+    0% {
+        background-color: #0C9;
+    }
+
+    50% {
+        background-color: #22577A;
+    }
+
+    100% {
+        background-color: #0C9;
+    }
+}
